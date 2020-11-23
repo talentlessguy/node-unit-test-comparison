@@ -45,6 +45,10 @@ ran `pnpm ls --depth=Infinity --parseable | uniq | wc -l` after installing
 
 googled things
 
+### Coverage support
+
+checked READMEs / examples
+
 ## Results table
 
 I split the results of my small research into objective and subjective. Objective are the ones that don't depend much on outer factors like my laptop or CI performance or a Node.js version.
@@ -53,11 +57,13 @@ I split the results of my small research into objective and subjective. Objectiv
 
 These results don't depend much on the conditions on which machine I run these tests, what Node.js version I use, etc. These stats can be considered universal for most cases.
 
-| Framework        | minimum node version | ESM support                         | install size (with deps) | deps count | TS support      | types          |
-| ---------------- | -------------------- | ----------------------------------- | ------------------------ | ---------- | --------------- | -------------- |
-| jest@26.6.3      | 10.14.2              | w/ `--experimental-vm-modules` flag | 47M                      | 56938      | with `ts-jest`  | `@types/jest`  |
-| uvu@0.5.0-next.1 | 8                    | out of the box                      | 652K                     | 8          | with `ts-node`  | out of the box |
-| mocha@8.2.1      | 10.12.0              | out of the box                      | 7.5M                     | 96         | with `ts-mocha` | `@types/mocha` |
+> w/ = with, ootb = out of the box
+
+| Framework        | minimum node version | ESM support | Coverage | install size (with deps) | deps count | TS support      | types          |
+| ---------------- | -------------------- | ----------- | -------- | ------------------------ | ---------- | --------------- | -------------- |
+| jest@26.6.3      | 10.14.2              | w/ a flag   | ootb     | 47M                      | 56938      | with `ts-jest`  | `@types/jest`  |
+| uvu@0.5.0-next.1 | 8                    | ootb        | w/ `c8`  | 652K                     | 8          | with `ts-node`  | ootb           |
+| mocha@8.2.1      | 10.12.0              | ootb        | w/ `c8`  | 7.5M                     | 96         | with `ts-mocha` | `@types/mocha` |
 
 more coming soon...
 
