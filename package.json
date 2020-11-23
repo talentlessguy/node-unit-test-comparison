@@ -1,0 +1,18 @@
+{
+  "name": "node-unit-test-comparison",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/talentlessguy/node-unit-test-comparison.git"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/talentlessguy/node-unit-test-comparison/issues"
+  },
+  "homepage": "https://github.com/talentlessguy/node-unit-test-comparison#readme"
+}
