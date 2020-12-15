@@ -1,0 +1,12 @@
+{
+  "name": "mocha-earl",
+  "type": "module",
+  "scripts": {
+    "test": "mocha mocha.test.js"
+  },
+  "devDependencies": {
+    "@types/mocha": "^8.2.0",
+    "earljs": "^0.1.8",
+    "mocha": "^8.2.1"
+  }
+}

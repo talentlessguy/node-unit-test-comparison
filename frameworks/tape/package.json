@@ -1,0 +1,15 @@
+{
+  "name": "tape",
+  "type": "module",
+  "scripts": {
+    "test": "tape-es tape.test.js "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/tape": "^4.13.0",
+    "tape": "^5.0.1",
+    "tape-es": "^1.2.11"
+  }
+}

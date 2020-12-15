@@ -1,0 +1,9 @@
+{
+  "type": "module",
+  "devDependencies": {
+    "oletus": "^3.0.0"
+  },
+  "scripts": {
+    "test": "oletus oletus.test.js"
+  }
+}
