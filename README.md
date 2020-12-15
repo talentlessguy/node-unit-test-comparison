@@ -81,16 +81,16 @@ more coming soon...
 | Framework                  | test run speed |
 | -------------------------- | -------------- |
 | jest@26.6.3                | 1.1402s        |
-| uvu@0.5.0-next.1           | 0.4743s        |
+| uvu@0.5.0-next.1           | 0.4743s 🏅     |
 | mocha@8.2.1 + assert       | 0.5752s        |
 | mocha@8.2.1 + earljs@0.1.8 | 0.7187s        |
 | tape@5.0.1                 | 0.5517s        |
-| oletus@3                   | 0.4999s 🏅     |
+| oletus@3                   | 0.4999s        |
 
 ### Conclusion
 
-- **oletus** is the fastest, but lacks types and grouping tests
+- **oletus** is the 2nd fastest, but lacks types and grouping tests
 - **jest** is the heaviest, slowest and doesn't have ESM support out of the box
-- **uvu** is the 2nd fastest test runner, while having ESM and types out of the box
+- **uvu** is the fastest test runner, while having ESM and types out of the box
 
 I would pick `uvu` for new projects because despite rich feature support, it's still very small and very fast.
